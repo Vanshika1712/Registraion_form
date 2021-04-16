@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="form.css">
 </head>
 <body>
-<form>
+<form method="POST" action="response_recorded.html" target="_blank" >
   <h1><u>Registration Form</h1></u>
   <hr><br>
 <label>First Name</label>
 <input type="text" name="Firstname" placeholder="Enter Firstname" size="15" required><br><br>   
 <label> Last Name </label>    
-<input type="text" name="Lastname" placeholder="Enter Lastname" size="15"required /> <br><br>   
+<input type="text" name="Lastname" placeholder="Enter Lastname" size="15" required/> <br><br>   
 <div class="Course">  
 <label> Course </label>   
 <select>  
@@ -33,7 +33,7 @@
 <input type="radio" value="Other" name="gender" id="other"> <label for="other"> Other </label>  <br>
 </div>  <br>
 <label>Contact No.</label>     
-<input type="text" name="phone" placeholder="Enter Contact No." size="10"/ required> <br><br>  
+<input type="text" name="phone" placeholder="Enter Contact No." size="10"/ > <br><br>  
 <label> Address </label>  <br>
 <textarea cols="80" rows="5" placeholder="Enter Current Address" value="address" required>  
 </textarea> <br><br> 
@@ -45,7 +45,7 @@
   
     <label>Re-type Password</b></label>  
     <input type="password" placeholder="Retype Password" name="Re-type password" required> <br><br> 
-    <center><button type="submit" class="registerbtn" onclick="document.location = 'response_recorded.html'" >Register</button></center>
+    <center><button type="submit" class="registerbtn">Register</button></center>
 </form>
 </body>
 </html>
